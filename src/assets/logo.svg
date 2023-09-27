@@ -1,0 +1,32 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="70"
+  height="70"
+  viewBox="0 0 100 100"
+  fill="none"
+>
+  <defs>
+    <!-- Define the linear gradient -->
+    <linearGradient
+      id="gradient"
+      x1="0%"
+      y1="0%"
+      x2="100%"
+      y2="100%"
+    >
+      <stop offset="0%" stop-color="#6A98F0" />
+      <stop offset="99%" stop-color="#4961DC" />
+    </linearGradient>
+  </defs>
+  <!-- Draw the modern "N" using text with a different font and styling -->
+  <text
+    x="10"
+    y="60"
+    font-family="Arial, sans-serif"
+    font-size="50"
+    font-weight="bold"
+    fill="url(#gradient)"
+  >
+    N
+  </text>
+</svg>

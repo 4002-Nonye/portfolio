@@ -1,0 +1,42 @@
+.project{
+    margin:0 15rem;
+}
+
+.project h2{
+    font-size: 6rem;
+  
+  
+
+}
+.underline{
+    background-color: var(--blue-medium--2);
+    height: .2rem;
+    width: 5rem;
+ 
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   column-gap: 7rem;
+    row-gap: 10rem;
+}
+
+@media screen and (max-width:1024px) {
+ .wrapper{
+    grid-template-columns: repeat(2,1fr);
+ }
+ .project{
+    margin:5rem 15rem;
+}
+  }
+
+  @media screen and (max-width:600px) {
+    .project{
+        margin: 6rem 5rem;
+        /* margin-top: 6rem; */
+    }
+    .wrapper{
+       grid-template-columns: repeat(1,1fr);
+    }
+       
+     }

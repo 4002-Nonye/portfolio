@@ -1,0 +1,55 @@
+.main {
+
+display: flex;
+flex-direction: column;
+  position: relative;
+}
+.bg {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  top: -9rem;
+}
+.header {
+  margin: 14rem 15rem;
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  font-size: 7rem;
+  font-weight: 700;
+  letter-spacing: 0.04ch;
+}
+.introText {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 2.5rem;
+}
+
+
+@media screen and (max-width:768px) {
+  .header{
+   flex-direction: column;
+   align-items: center;
+   margin:unset;
+   margin-top: 10rem;
+ 
+  }
+  .intro{
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+  .bg{
+    width: 50rem;
+  }
+  
+}
+
+
+@media screen and (max-width:600px) {
+ 
+  .bg{
+    width: 30rem;
+  }
+  
+}

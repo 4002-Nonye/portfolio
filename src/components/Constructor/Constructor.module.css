@@ -1,0 +1,16 @@
+.block {
+  background-color: var(--color-dark--2);
+  font-size: 1.4rem;
+  border-radius: 1rem;
+  padding: 3rem 3.5rem;
+  line-height: 4rem;
+  font-weight: 400;
+
+
+}
+@media screen and (max-width:600px) {
+  .block{
+    padding: 1rem;
+  }
+  
+}

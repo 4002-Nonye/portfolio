@@ -1,0 +1,48 @@
+import React from 'react';
+import styles from './Nav.module.css';
+import logo from '../../assets/logo.svg';
+import github from '../../assets/icon-github.svg';
+import linkedin from '../../assets/icon-linkedin.svg';
+import twitter from '../../assets/icons8-twitter.svg';
+import fe from '../../assets/icon-frontend-mentor.svg';
+
+function Nav() {
+  return (
+    <nav className={styles.nav}>
+      <div className={styles.logo}>
+        <img src={logo} alt='logo' />
+      </div>
+
+      <div className={styles.socials}>
+        <ul>
+          <li>
+            <a href='#'>
+              {' '}
+              <img src={github} alt='github' />
+            </a>
+          </li>
+          <li>
+            <a href='#'>
+              {' '}
+              <img src={fe} alt='Frontend mentor' />
+            </a>
+          </li>
+          <li>
+            <a href='#'>
+              {' '}
+              <img src={linkedin} alt='linkedin' />
+            </a>
+          </li>
+          <li>
+            <a href='#'>
+              {' '}
+              <img src={twitter} alt='twitter' />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
+}
+
+export default Nav;
