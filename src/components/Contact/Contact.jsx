@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Contact.module.css';
 import pattern from '../../assets/pattern.svg'
 import Button from '../Button/Button';
+import Footer from '../Footer/Footer';
 
 function Contact() {
   return (
@@ -40,6 +41,7 @@ function Contact() {
             </form>
           </div>
         </div>
+        <Footer />
       </section>
     </>
   );

@@ -1,0 +1,7 @@
+.footer{
+    border-top: .1rem solid var(--blue-medium--3);
+    padding-top: 2rem;
+    margin-top: 4rem;
+   display: none;
+  
+}

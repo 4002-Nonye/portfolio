@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import React from 'react';
+
 import styles from './ProjectCard.module.css';
 
 function ProjectCard({ src, alt, repoUrl, liveUrl, title,languages }) {

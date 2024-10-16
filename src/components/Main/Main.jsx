@@ -5,7 +5,7 @@ import bgRect from '../../assets/bg-rect.svg';
 import Constructor from '../Constructor/Constructor';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
-import Footer from '../Footer/Footer';
+
 
 function Main() {
   return (
@@ -28,7 +28,7 @@ function Main() {
       </div>
       <Projects />
       <Contact />
-      <Footer />
+      
     </main>
   );
 }
