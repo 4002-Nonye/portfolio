@@ -16,25 +16,25 @@ function Nav() {
       <div className={styles.socials}>
         <ul>
           <li>
-            <a href='#'>
+            <a href='https://github.com/4002-Nonye'>
               {' '}
               <img src={github} alt='github' />
             </a>
           </li>
           <li>
-            <a href='#'>
+            <a href='https://www.frontendmentor.io/profile/4002-Nonye'>
               {' '}
               <img src={fe} alt='Frontend mentor' />
             </a>
           </li>
           <li>
-            <a href='#'>
+            <a href='https://www.linkedin.com/in/ojukwu-chinonye-51020023a/'>
               {' '}
               <img src={linkedin} alt='linkedin' />
             </a>
           </li>
           <li>
-            <a href='#'>
+            <a href='https://x.com/that_reactdev'>
               {' '}
               <img src={twitter} alt='twitter' />
             </a>
