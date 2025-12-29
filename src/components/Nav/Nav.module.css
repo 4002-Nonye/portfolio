@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
- padding: 2rem;
+  padding: 2rem;
   position: sticky;
   top: 0;
   background: rgba(10, 10, 10, 0.95);
@@ -11,12 +11,22 @@
   z-index: 100;
 }
 
-.logo img {
-  height: 6rem;
-  width: auto;
-  
+.logoText {
+  font-size: 4rem;               /* Logo size */
+  font-weight: 700;
+  color: #6376E7;                 /* Accent color */
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.1ch;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
+.logoText:hover {
+  transform: scale(1.1);
+  color: #7788f0;
+}
+
+/* Socials */
 .socials ul {
   display: flex;
   gap: 3rem;
@@ -49,19 +59,28 @@
   height: 2.4rem;
 }
 
+/* Responsive */
 @media screen and (max-width: 1024px) {
-
+  .socials ul {
+    gap: 2.5rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
-
-  
-  .socials ul {
-    gap: 4rem;
+  .nav {
+    padding: 1.5rem 2rem;
   }
-  
+
+  .socials ul {
+    gap: 2rem;
+  }
+
   .socials img {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+
+  .logoText {
+    font-size: 3.2rem;
   }
 }

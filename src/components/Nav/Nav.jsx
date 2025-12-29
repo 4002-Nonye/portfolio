@@ -1,5 +1,4 @@
 import styles from './Nav.module.css';
-import logo from '../../assets/logo.svg';
 import github from '../../assets/icon-github.svg';
 import linkedin from '../../assets/icon-linkedin.svg';
 import twitter from '../../assets/icons8-twitter.svg';
@@ -8,7 +7,7 @@ function Nav() {
   return (
     <nav className={styles.nav}>
       <div className={styles.logo}>
-        <img src={logo} alt='logo' />
+        <span className={styles.logoText}>N</span>
       </div>
 
       <div className={styles.socials}>
