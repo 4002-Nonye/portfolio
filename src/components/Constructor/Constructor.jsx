@@ -1,33 +1,45 @@
-import React from 'react';
 import styles from './Constructor.module.css'
 
 function Constructor() {
   return (
     <div className={styles.block}>
       <pre>
-        1&nbsp;&nbsp;class <b>Person</b>
-        {' {'}
+        1&nbsp;&nbsp;const <b>developer</b> = {'{'}
       </pre>
 
-      <pre>2&nbsp;&nbsp;&nbsp;&nbsp;constructor(){' {'}</pre>
       <pre>
-        3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.name = &quot;
-        <b>the engine</b>&quot;;
+        2&nbsp;&nbsp;&nbsp;&nbsp;name: &quot;<b>OJ Nonye</b>&quot;,
       </pre>
+      
       <pre>
-        4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.skills = [&quot;
-        <b>Tailwind css</b>&quot;, &quot;<b>React js</b>&quot;];{' '}
+        3&nbsp;&nbsp;&nbsp;&nbsp;role: &quot;<b>Full-Stack Developer</b>&quot;,
       </pre>
+      
       <pre>
-        4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.hobbies = &quot;
-        <b>Playing tennis</b>&quot;;{' '}
+        4&nbsp;&nbsp;&nbsp;&nbsp;skills: {'{'}
       </pre>
+      
       <pre>
-        5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.age = new
-        Date().getFullYear() - 2004;
+        5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;frontend: [&quot;<b>React</b>&quot;, &quot;<b>JavaScript</b>&quot;, &quot;<b>Tailwind CSS</b>&quot;],
       </pre>
-      <pre>6&nbsp;&nbsp;&nbsp;&nbsp; {'}'} </pre>
-      <pre>7&nbsp; {'}'}</pre>
+      
+      <pre>
+        6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;backend: [&quot;<b>Node.js</b>&quot;, &quot;<b>Express</b>&quot;, &quot;<b>MongoDB</b>&quot;],
+      </pre>
+      
+      <pre>
+        7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tools: [&quot;<b>Git</b>&quot;, &quot;<b>JWT Auth</b>&quot;, &quot;<b>REST APIs</b>&quot;]
+      </pre>
+      
+      <pre>
+        8&nbsp;&nbsp;&nbsp;&nbsp;{'}'},
+      </pre>
+      
+      <pre>
+        9&nbsp;&nbsp;&nbsp;&nbsp;currentFocus: &quot;<b>Building production apps that scale</b>&quot;
+      </pre>
+      
+      <pre>10&nbsp;{'};'}</pre>
     </div>
   );
 }

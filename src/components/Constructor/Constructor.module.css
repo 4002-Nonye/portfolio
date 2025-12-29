@@ -5,12 +5,20 @@
   padding: 3rem 3.5rem;
   line-height: 4rem;
   font-weight: 400;
-
-
-}
-@media screen and (max-width:600px) {
-  .block{
-    padding: 1rem;
-  }
+  overflow-x: auto; 
+  position: relative;
   
+}
+
+.block pre {
+  white-space: pre;
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .block {
+    padding: 1.5rem 1rem;
+    font-size: 1.3rem;
+    line-height: 2.8rem;
+  }
 }

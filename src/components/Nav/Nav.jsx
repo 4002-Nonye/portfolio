@@ -1,4 +1,4 @@
-import React from 'react';
+
 import styles from './Nav.module.css';
 import logo from '../../assets/logo.svg';
 import github from '../../assets/icon-github.svg';

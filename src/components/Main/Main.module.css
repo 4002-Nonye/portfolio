@@ -1,55 +1,75 @@
 .main {
-
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
   position: relative;
+  margin-top: 5rem;
 }
-.bg {
-  position: absolute;
-  z-index: -1;
-  right: 0;
-  top: -9rem;
-}
+
+
+
 .header {
-  margin: 14rem 15rem;
+
   display: flex;
   justify-content: space-between;
 }
+
 .name {
   font-size: 7rem;
   font-weight: 700;
   letter-spacing: 0.04ch;
 }
+
 .introText {
-  font-size: 2.5rem;
-  font-weight: 400;
+  font-size: 2rem;
+  font-weight: 200;
+  line-height: 1.5em;
   margin-bottom: 2.5rem;
+    margin-top: 1.5rem;
+    width: 70rem;
+    
 }
 
-
-@media screen and (max-width:768px) {
-  .header{
-   flex-direction: column;
-   align-items: center;
-   margin:unset;
-   margin-top: 10rem;
+@media screen and (max-width: 1024px) {
+.introText {
  
+    width: 100%;
+   
+    
+}}
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+
   }
-  .intro{
+  
+  .intro {
     margin-bottom: 5rem;
     text-align: center;
   }
-  .bg{
-    width: 50rem;
+  .introText{
+    width: 70%;
+     margin:2rem auto;
   }
-  
+
 }
 
-
-@media screen and (max-width:600px) {
- 
-  .bg{
-    width: 30rem;
+@media screen and (max-width: 600px) {
+  .main{
+    margin-top: 0;
   }
+  .header {
+padding:10rem 4rem;
+  
+}
+  .name {
+    font-size: 4rem;
+  }
+  .introText{
+        width: 100%;
+  }
+  
   
 }

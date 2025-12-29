@@ -1,13 +1,12 @@
-import React from 'react';
+
 import styles from './Contact.module.css';
 import pattern from '../../assets/pattern.svg'
 import Button from '../Button/Button';
-import Footer from '../Footer/Footer';
+
 
 function Contact() {
   return (
-    <>
-      {' '}
+   
       <section className={styles.contact}>
         <img src={pattern} alt="pattern" className={styles.pattern} />
         <div className={styles.contactDetails}>
@@ -41,9 +40,9 @@ function Contact() {
             </form>
           </div>
         </div>
-        <Footer />
+     
       </section>
-    </>
+    
   );
 }
 
