@@ -1,10 +1,8 @@
-
 import styles from './Nav.module.css';
 import logo from '../../assets/logo.svg';
 import github from '../../assets/icon-github.svg';
 import linkedin from '../../assets/icon-linkedin.svg';
 import twitter from '../../assets/icons8-twitter.svg';
-import fe from '../../assets/icon-frontend-mentor.svg';
 
 function Nav() {
   return (
@@ -16,26 +14,32 @@ function Nav() {
       <div className={styles.socials}>
         <ul>
           <li>
-            <a href='https://github.com/4002-Nonye'>
-              {' '}
+            <a 
+              href='https://github.com/4002-Nonye' 
+              target='_blank' 
+              rel='noopener noreferrer'
+              aria-label='GitHub Profile'
+            >
               <img src={github} alt='github' />
             </a>
           </li>
           <li>
-            <a href='https://www.frontendmentor.io/profile/4002-Nonye'>
-              {' '}
-              <img src={fe} alt='Frontend mentor' />
-            </a>
-          </li>
-          <li>
-            <a href='https://www.linkedin.com/in/ojukwu-chinonye-51020023a/'>
-              {' '}
+            <a 
+              href='https://www.linkedin.com/in/chinonye-ojukwu-51020023a/' 
+              target='_blank' 
+              rel='noopener noreferrer'
+              aria-label='LinkedIn Profile'
+            >
               <img src={linkedin} alt='linkedin' />
             </a>
           </li>
           <li>
-            <a href='https://x.com/that_reactdev'>
-              {' '}
+            <a 
+              href='https://x.com/that_reactdev' 
+              target='_blank' 
+              rel='noopener noreferrer'
+              aria-label='Twitter Profile'
+            >
               <img src={twitter} alt='twitter' />
             </a>
           </li>
