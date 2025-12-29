@@ -16,7 +16,15 @@ padding: 4rem;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
-
+.error{
+  color: red;
+  opacity: .5;
+  font-style: italic;
+  font-size: 1.6rem;
+}
+.success{
+    font-size: 1.6rem;
+}
 .underline {
   background: linear-gradient(90deg, var(--blue-medium--2) 0%, transparent 100%);
   height: 0.3rem;
@@ -32,7 +40,7 @@ padding: 4rem;
 }
 
 .feedback {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.8;
   color: rgba(255, 255, 255, 0.7);
   max-width: 55rem;}
@@ -105,9 +113,7 @@ padding: 4rem;
     font-size: 3.5rem;
   }
 
-  .feedback {
-    font-size: 1.4rem;
-  }
+ 
 
   .form input,
   .form textarea {
