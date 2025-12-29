@@ -7,7 +7,6 @@
   font-weight: 400;
   overflow-x: auto; 
   position: relative;
-  
 }
 
 .block pre {
@@ -18,7 +17,7 @@
 @media screen and (max-width: 600px) {
   .block {
     padding: 1.5rem 1rem;
-   
+    font-size: 1.3rem;
     line-height: 2.8rem;
   }
 }
