@@ -8,7 +8,7 @@ function Constructor() {
       </pre>
 
       <pre>
-        2&nbsp;&nbsp;&nbsp;&nbsp;name: &quot;<b>OJ Nonye</b>&quot;,
+        2&nbsp;&nbsp;&nbsp;&nbsp;name: &quot;<b>Chinonye Ojukwu</b>&quot;,
       </pre>
       
       <pre>

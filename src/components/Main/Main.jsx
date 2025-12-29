@@ -16,7 +16,7 @@ function Main() {
           <h1>
             Hello, I am
             <br />
-            <span className={styles.name}>OJ NONYE</span>
+            <span className={styles.name}>CHINONYE OJUKWU</span>
           </h1>
 
           <p className={styles.introText}>
